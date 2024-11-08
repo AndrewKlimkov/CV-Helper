@@ -151,7 +151,7 @@ export class ProjectsStore implements IProjectsStore {
 
   fetchTableData = async () => {
     const url =
-      "https://script.google.com/macros/s/AKfycbxZdeOQ04XUAwR9LLtgJX4rFGOmqEyKoOsdS2_fc308wfN7B-6ChrzdHoj6pOVPmfYQJQ/exec";
+      "https://script.google.com/a/macros/innowise.com/s/AKfycbxZdeOQ04XUAwR9LLtgJX4rFGOmqEyKoOsdS2_fc308wfN7B-6ChrzdHoj6pOVPmfYQJQ/exec";
 
     try {
       const response = await fetch(url);
